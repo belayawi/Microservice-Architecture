@@ -1,20 +1,14 @@
-package com.example.bookcommandservice.domain;
+package com.amenawi.bookcommandservice.service;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
-@Document
-public class Book {
-    @Id
+public class BookDto {
     private String isbn;
     private String title;
     private String description;
     private String authorName;
 
-    public Book() {
-    }
+    public BookDto(){}
 
-    public Book(String isbn, String title, String description, String authorName) {
+    public BookDto(String isbn, String title, String description, String authorName) {
         this.isbn = isbn;
         this.title = title;
         this.description = description;
@@ -55,13 +49,11 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "BookDto{" +
                 "isbn='" + isbn + '\'' +
                 ", title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", authorName='" + authorName + '\'' +
                 '}';
     }
-
-
 }

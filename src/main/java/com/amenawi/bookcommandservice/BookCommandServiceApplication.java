@@ -1,4 +1,4 @@
-package com.example.bookcommandservice;
+package com.amenawi.bookcommandservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.example.bookcommandservice;
+package com.amenawi.bookcommandservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
